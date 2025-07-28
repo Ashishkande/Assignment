@@ -34,6 +34,7 @@ export const Card: React.FC<CardProps> = ({ user, onLike, onPass, onViewProfile,
           fill
           className="object-cover"
           priority
+          unoptimized
         />
       </div>
       <div className="p-4">

@@ -17,6 +17,7 @@ export const LikedUserCard: React.FC<LikedUserCardProps> = ({ user }) => {
             alt={`${user.name.first} ${user.name.last}`}
             fill
             className="object-cover"
+            unoptimized
           />
         </div>
         <div className="p-4">

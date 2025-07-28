@@ -30,6 +30,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ user, onClose }) => 
             alt={`${user.name.first} ${user.name.last}`}
             fill
             className="object-cover"
+            unoptimized
           />
         </div>
         <div className="p-6">
